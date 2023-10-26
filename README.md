@@ -2,7 +2,7 @@
 
 Welcome to the Tetris Web Game project, which runs the classic Tetris game on Kubernetes using ArgoCD for GitOps-based deployment. In this project, you'll find everything you need to deploy and enjoy the Tetris game in a scalable and automated way.
 
-![Tetris overview](https://github.com/s1mba10/argocd-tetris/assets/101098236/3ba96434-e42f-4cd7-a3aa-b60ff349bcf8)
+[![Video Preview](https://github.com/s1mba10/argocd-tetris/assets/101098236/c9ef6fa6-c67a-420d-a616-dd5bb7c7cb24)](https://youtu.be/-XsB99zg-EM)
 
 
 ## Table of Contents
