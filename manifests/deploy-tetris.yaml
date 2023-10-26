@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: tetris-deployment
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: tetris
@@ -11,13 +12,12 @@ spec:
       labels:
         app: tetris
     spec:
-      replicas: 1
       containers:
       - name: tetris
         image: bsord/tetris     # tetris image
-        # resources:
-        #   limits:
-        #     memory: "128Mi"
-        #     cpu: "500m"
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
         - containerPort: 80
